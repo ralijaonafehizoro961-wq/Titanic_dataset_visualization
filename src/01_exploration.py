@@ -4,13 +4,15 @@ import pandas as pd
 df = pd.read_csv('data/tested.csv')
 
 # Displays the first 10 lines
+print("*"*150)
 print(df.head(10))
+print("*"*150)
 
 # Displays the shape of the dataset
-print(df.shape)
+print("\n" + "Dataset shape: " + str(df.shape))
 
 # Displays the names of all columns
-print(df.columns)
+print("\n" + "List of columns: " + str(df.columns.tolist()))
 
 # Displays data types
-print(df.dtypes)
+print("\n" + "Types of columns : " + "\n" + str(df.dtypes))
