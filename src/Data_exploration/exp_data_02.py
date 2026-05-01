@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('data/tested.csv')
+df = pd.read_csv('data/Titanic-Dataset.csv')
 
 # basic statistics for numeric columns
 print(df.describe())

@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('data/tested.csv')
+df = pd.read_csv('data/Titanic-Dataset.csv')
 
 # number of passengers who survived
 survived = df['Survived'].value_counts().get(1, 0)

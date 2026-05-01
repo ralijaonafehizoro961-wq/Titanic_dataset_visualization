@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file with pandas
-df = pd.read_csv('data/tested.csv')
+df = pd.read_csv('data/Titanic-Dataset.csv')
 
 # Displays the first 10 lines
 print("*"*150)
