@@ -17,3 +17,7 @@ result = pd.DataFrame({
 print(result)
 
 # Sort the columns in descending order of missing values.
+sorted_missing = missing.sort_values(ascending=False)
+print(sorted_missing)
+
+# the columns with the most missing data
