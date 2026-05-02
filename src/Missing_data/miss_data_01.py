@@ -21,3 +21,4 @@ sorted_missing = missing.sort_values(ascending=False)
 print(sorted_missing)
 
 # the columns with the most missing data
+print(sorted_missing.head(3))
