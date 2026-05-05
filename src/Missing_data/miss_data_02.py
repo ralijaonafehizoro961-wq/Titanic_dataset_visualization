@@ -10,3 +10,11 @@ print(df['Age'].isnull().sum())
 mode_embarked = df['Embarked'].mode()[0]
 df['Embarked'] = df['Embarked'].fillna(mode_embarked)
 print(df['Embarked'].isnull().sum())
+
+# Create a binary variable for the cabin column
+print(df['Cabin'].notnull())
+df['HasCabin'] = df['Cabin'].notnull().astype(int)
+print(df['HasCabin'].head())
+
+# Saves the cleaned dataset
+df.to_csv("results/donnees_nettoyees.csv", index=False)
