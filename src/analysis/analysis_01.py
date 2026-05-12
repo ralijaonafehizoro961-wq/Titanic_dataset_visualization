@@ -12,7 +12,7 @@ rate_man = man['Survived'].mean() * 100
 print(f"Survival rate for women : {rate_women:.0f} %")
 print(f"Survival rate for man   : {rate_man:.0f} %")
 
-# comparison graph
+# graph comparison
 categories = [f'Women {rate_women:.0f} %', f'Men {rate_man:.0f} %']
 rates = [rate_women, rate_man]
 plt.figure(figsize=(6, 4))
