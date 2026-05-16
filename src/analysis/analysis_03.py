@@ -15,3 +15,7 @@ print(f" Survival rate for adults (Age > 18) : {rate_adults:.0f} %")
 # the average age of the Survivors
 avr_age = df[df['Survived'] == 1]['Age'].mean()   
 print(f" The average age of the survivors : {avr_age:.0f} years")
+
+# the average age of the non-survivors
+avr_age = df[df['Survived'] == 0]['Age'].mean()   
+print(f" The average age of the non-survivors : {avr_age:.0f} years")
