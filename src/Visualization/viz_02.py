@@ -12,6 +12,4 @@ df['Survived'].value_counts().plot(
 )
 
 plt.title("Survival Distribution on the Titanic")
-
-
 plt.show()
