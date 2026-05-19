@@ -2,6 +2,8 @@
 
 A complete data analysis project on the Titanic dataset using Python and popular data science libraries.
 
+
+![Titanic](graph/Titanic.jpg)
 ---
 
 # Project Overview
@@ -161,5 +163,18 @@ This project helped practice:
 # How to Run the Project
 
 ```bash
+# clone the repository
+git clone https://github.com/ralijaonafehizoro961-wq/Titanic_dataset_visualization.git
+cd Titanic_dataset_visualization
+
+# Install the dependence
 pip install -r requirements.txt
-python3 main.py
+
+# Run with this command
+# ex : on linux
+python3 src/Data_exploration/exp_data_01.py
+python3 src/Missing_data/miss_data_01.py
+
+# ex : on Windows
+python src/Data_exploration/exp_data_01.py
+python src/Missing_data/miss_data_01.py
