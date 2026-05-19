@@ -17,6 +17,10 @@ This project focuses on:
 
 The goal is to better understand the factors that influenced passenger survival on the Titanic.
 
+
+![GitHub stars](https://img.shields.io/github/stars/ralijaonafehizoro961-wq/Titanic_Dataset_Exploration?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/ralijaonafehizoro961-wq/Titanic_Dataset_Exploration?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/ralijaonafehizoro961-wq/Titanic_Dataset_Exploration?style=for-the-badge)
 ---
 
 # Technologies & Libraries
