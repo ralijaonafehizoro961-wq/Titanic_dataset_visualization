@@ -105,6 +105,7 @@ The heatmap shows relationships between numerical variables such as:
 
 Higher-class passengers and passengers who paid higher fares were more likely to survive.
 
+![Heatmap](graph/hetmap.png)
 ---
 
 # Visualizations Included
@@ -176,5 +177,15 @@ python3 src/Data_exploration/exp_data_01.py
 python3 src/Missing_data/miss_data_01.py
 
 # ex : on Windows
-python src/Data_exploration/exp_data_01.py
-python src/Missing_data/miss_data_01.py
+python src\Data_exploration\exp_data_01.py
+python src\Missing_data\miss_data_01.py
+```
+
+---
+
+# Autors
+
+- RALIJAONA Andriniaina Fehizoro
+- Computer Science Student
+- ralijaonafehizoro961@gmail.com
+
