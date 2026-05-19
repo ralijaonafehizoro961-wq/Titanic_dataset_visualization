@@ -28,7 +28,7 @@ The goal is to better understand the factors that influenced passenger survival 
 ---
 
 # 📂 Project Structure
-
+```bash
 Titanic_Dataset_Exploration/
 │
 ├── data/
@@ -47,6 +47,7 @@ Titanic_Dataset_Exploration/
 │
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
